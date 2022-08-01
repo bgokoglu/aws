@@ -1,0 +1,12 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      PackageType: Image
+      ImageUri: 788865638227.dkr.ecr.us-east-1.amazonaws.com/hello-container:function-a07847b5ab63-latest
+    Metadata:
+      DockerContext: /Users/burak.gokoglu/MyWorkSpace/AWS/HelloAws/HelloLambdaContainer/src/HelloLambdaContainer
+      Dockerfile: Dockerfile
+      SamResourceId: Function

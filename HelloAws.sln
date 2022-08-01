@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloLambda", "HelloLambda\src\HelloLambda\HelloLambda.csproj", "{0E9F9EA0-E94C-4607-A12D-39AD1BB722FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloLambdaContainer", "HelloLambdaContainer\src\HelloLambdaContainer\HelloLambdaContainer.csproj", "{7FFBABD3-8513-4827-92A4-0619F258DF5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E9F9EA0-E94C-4607-A12D-39AD1BB722FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9F9EA0-E94C-4607-A12D-39AD1BB722FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E9F9EA0-E94C-4607-A12D-39AD1BB722FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E9F9EA0-E94C-4607-A12D-39AD1BB722FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FFBABD3-8513-4827-92A4-0619F258DF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FFBABD3-8513-4827-92A4-0619F258DF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FFBABD3-8513-4827-92A4-0619F258DF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FFBABD3-8513-4827-92A4-0619F258DF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
