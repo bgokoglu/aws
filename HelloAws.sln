@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloLambda", "HelloLambda\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloLambdaContainer", "HelloLambdaContainer\src\HelloLambdaContainer\HelloLambdaContainer.csproj", "{7FFBABD3-8513-4827-92A4-0619F258DF5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloBeanstalk", "HelloBeanstalk\HelloBeanstalk.csproj", "{73895090-B8CC-4850-90B7-94097F15B9C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{7FFBABD3-8513-4827-92A4-0619F258DF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FFBABD3-8513-4827-92A4-0619F258DF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FFBABD3-8513-4827-92A4-0619F258DF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73895090-B8CC-4850-90B7-94097F15B9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73895090-B8CC-4850-90B7-94097F15B9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73895090-B8CC-4850-90B7-94097F15B9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73895090-B8CC-4850-90B7-94097F15B9C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
