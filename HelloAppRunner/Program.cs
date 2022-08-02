@@ -23,3 +23,9 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.Run();
+
+//Had to modify dockerfile since it is not at the same location as the solution file.
+//docker build -t hello-apprunner:latest .
+//create container registry
+//push image to container registry
+//create app runner service

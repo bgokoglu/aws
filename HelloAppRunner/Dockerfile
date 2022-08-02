@@ -19,5 +19,3 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "HelloAppRunner.dll"]
-
-# since dockerfile is not at the same level as the solution, default dockerfile is not working
