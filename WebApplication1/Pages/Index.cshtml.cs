@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace HelloAppRunner.Pages;
+namespace WebApplication1.Pages;
 
 public class IndexModel : PageModel
 {
@@ -14,6 +14,5 @@ public class IndexModel : PageModel
 
     public void OnGet()
     {
-        _logger.LogInformation("Request from IP: {ConnectionRemoteIpAddress}", HttpContext.Connection.RemoteIpAddress);
     }
 }
