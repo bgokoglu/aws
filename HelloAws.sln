@@ -16,6 +16,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSQS-Fulfill", "HelloSQ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSNS", "HelloSNS\HelloSNS.csproj", "{FE75AE6B-24F5-40E3-9189-94CFD3289EDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSES", "HelloSES\HelloSES.csproj", "{0EEFA424-3BC8-47C4-97BA-157F6C33D4D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{FE75AE6B-24F5-40E3-9189-94CFD3289EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE75AE6B-24F5-40E3-9189-94CFD3289EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE75AE6B-24F5-40E3-9189-94CFD3289EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EEFA424-3BC8-47C4-97BA-157F6C33D4D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EEFA424-3BC8-47C4-97BA-157F6C33D4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EEFA424-3BC8-47C4-97BA-157F6C33D4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EEFA424-3BC8-47C4-97BA-157F6C33D4D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
