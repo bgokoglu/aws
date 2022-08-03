@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSNS", "HelloSNS\HelloS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloSES", "HelloSES\HelloSES.csproj", "{0EEFA424-3BC8-47C4-97BA-157F6C33D4D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCopilot", "HelloCopilot\HelloCopilot.csproj", "{F9066633-8807-4611-B9C3-E4914D1094FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{0EEFA424-3BC8-47C4-97BA-157F6C33D4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EEFA424-3BC8-47C4-97BA-157F6C33D4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EEFA424-3BC8-47C4-97BA-157F6C33D4D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9066633-8807-4611-B9C3-E4914D1094FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9066633-8807-4611-B9C3-E4914D1094FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9066633-8807-4611-B9C3-E4914D1094FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9066633-8807-4611-B9C3-E4914D1094FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
